@@ -8,14 +8,16 @@ The PHEVA dataset is a pioneering resource designed to advance research in Video
 
 ## Sample Videos
 
-### Video 1: [Description of Video 1]
+### Slapping
 ![Anomalous Sample1](Sample_Videos/2_68.gif)
 
-### Video 2: [Description of Video 2]
+### Kicking
 ![Anomalous Sample2](Sample_Videos/2_265.gif)
 
+### Falling
 ![Anomalous Sample3](Sample_Videos/4_79.gif)
 
+### Pushing
 ![Anomalous Sample4](Sample_Videos/2_99.gif)
 
 ## Key Features
