@@ -14,7 +14,7 @@ The PHEVA dataset is a pioneering resource designed to advance research in Video
 - **Context-Specific Scenarios**: Includes a novel context-specific camera dedicated to law enforcement and security personnel training, allowing for the evaluation of models in highly specialized environments.
 - **Continual Learning**: PHEVA supports benchmarks for continual learning, bridging the gap between conventional training and real-world deployment.
 
-![Camera Views](AAAI_cam_view.pdf)
+![Camera Views](cam_view.pdf)
 *Figure 1: The camera views in PHEVA dataset.*
 
 ## Dataset Statistics
