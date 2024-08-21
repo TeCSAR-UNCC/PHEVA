@@ -6,19 +6,28 @@
 
 The PHEVA dataset is a pioneering resource designed to advance research in Video Anomaly Detection (VAD) by addressing key challenges related to privacy, ethical concerns, and the complexities of human behavior in video data. PHEVA is the largest continuously recorded VAD dataset, providing comprehensive, de-identified human annotations across diverse indoor and outdoor scenes.
 
-## Sample Videos
-
+## Anomalous Behaviors
+ PHEVA’s individual anomalies involve throwing, hands up, lying down, and falling. In group situations, anomalies include punching, kicking, pushing, pulling, hitting with an object, and strangling. You can find several segmented examples below.
 ### Slapping
-![Anomalous Sample1](Sample_Videos/2_68.gif)
+<p align="center">
+  <img src="Sample_Videos/2_68.gif" alt="Anomalous Sample1">
+</p>
 
 ### Kicking
-![Anomalous Sample2](Sample_Videos/2_265.gif)
+<p align="center">
+  <img src="Sample_Videos/2_265.gif" alt="Anomalous Sample2">
+</p>
 
 ### Falling
-![Anomalous Sample3](Sample_Videos/4_79.gif)
+<p align="center">
+  <img src="Sample_Videos/4_79.gif" alt="Anomalous Sample3">
+</p>
 
 ### Pushing
-![Anomalous Sample4](Sample_Videos/2_99.gif)
+<p align="center">
+  <img src="Sample_Videos/2_99.gif" alt="Anomalous Sample4">
+</p>
+
 
 ## Key Features
 
