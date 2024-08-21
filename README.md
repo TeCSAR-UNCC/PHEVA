@@ -8,9 +8,10 @@ The PHEVA dataset is a pioneering resource designed to advance research in Video
 
 ## Anomalous Behaviors
  PHEVA’s individual anomalies involve throwing, hands up, lying down, and falling. In group situations, anomalies include punching, kicking, pushing, pulling, hitting with an object, and strangling. You can find several segmented examples below.
-### Slapping
+
 <p align="center">
   <img src="Sample_Videos/2_68.gif" alt="Anomalous Sample1">
+ *Example 1: Slapping*
 </p>
 
 ### Kicking
