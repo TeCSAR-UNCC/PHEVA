@@ -31,7 +31,7 @@ The PHEVA dataset is a pioneering resource designed to advance research in Video
   </div>
 
   <div style="display: inline-block; margin: 10px;">
-    <img src="Sample_Videos/2_99.gif" alt="Anomalous Sample4">
+    <img src="Sample_Videos/4_99.gif" alt="Anomalous Sample4">
     <br>
     Example 4: Pushing
   </div>
