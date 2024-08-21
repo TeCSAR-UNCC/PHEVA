@@ -1,7 +1,6 @@
 
 # PHEVA: Privacy-preserving Human-centric Video Anomaly Detection Dataset
 
-![PHEVA Logo](link_to_logo_image)
 
 ## Overview
 
