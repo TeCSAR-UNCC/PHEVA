@@ -59,7 +59,17 @@ The PHEVA dataset is a pioneering resource designed to advance research in Video
 
 Each video has its own dedicated annotation file in .pkl format. 
 
-The files follow the same naming pattern as the videos, and it has a dictionary with the following format:
+The naming of the files has the following pattern:
+
+```
+<camera_number>_<video_number>.pkl
+```
+
+Camera number ranges from 0 to 6 with camera 6 representing the CSC camera. 
+
+Video number is the number of the video from the specific camera. 
+
+The annotation files contains a dictionary with the following format:
 
 ```python
 {
