@@ -74,6 +74,106 @@ We benchmarked several State-of-the-Art (SotA) pose-based VAD models on the PHEV
 
 *Table 2: Benchmarking of SotA pose-based models on PHEVA.*
 
+## Continual Benchmark Train and Test Set Characteristics
+
+Less than 1% of the training data is anomalous to mimic real-world scenarios. The test set is edited to be balanced with an approximate 1:1 ratio of normal to anomalous frames to make metrics such as AUC-ROC and AUC-PR more informative.
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan="4">Continual Train Set</th>
+    <th colspan="4">Continual Test Set</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Total</th>
+    <th>Normal</th>
+    <th>Anomalous</th>
+    <th>Anomaly Percentage</th>
+    <th>Total</th>
+    <th>Normal</th>
+    <th>Anomalous</th>
+    <th>Anomaly Percentage</th>
+  </tr>
+  <tr>
+    <td><b>C0</b></td>
+    <td>487,835</td>
+    <td>483,220</td>
+    <td>4,615</td>
+    <td>0.95</td>
+    <td>52,145</td>
+    <td>26,093</td>
+    <td>26,052</td>
+    <td>49.96</td>
+  </tr>
+  <tr>
+    <td><b>C1</b></td>
+    <td>796,860</td>
+    <td>791,186</td>
+    <td>5,674</td>
+    <td>0.71</td>
+    <td>57,120</td>
+    <td>28,597</td>
+    <td>28,523</td>
+    <td>49.93</td>
+  </tr>
+  <tr>
+    <td><b>C2</b></td>
+    <td>787,301</td>
+    <td>780,420</td>
+    <td>6,881</td>
+    <td>0.87</td>
+    <td>50,592</td>
+    <td>25,300</td>
+    <td>25,292</td>
+    <td>49.99</td>
+  </tr>
+  <tr>
+    <td><b>C3</b></td>
+    <td>1,260,314</td>
+    <td>1,251,189</td>
+    <td>9,125</td>
+    <td>0.72</td>
+    <td>31,604</td>
+    <td>15,818</td>
+    <td>15,786</td>
+    <td>49.95</td>
+  </tr>
+  <tr>
+    <td><b>C4</b></td>
+    <td>449,686</td>
+    <td>447,918</td>
+    <td>1,768</td>
+    <td>0.39</td>
+    <td>74,482</td>
+    <td>37,274</td>
+    <td>37,208</td>
+    <td>49.95</td>
+  </tr>
+  <tr>
+    <td><b>C5</b></td>
+    <td>690,730</td>
+    <td>686,435</td>
+    <td>4,295</td>
+    <td>0.62</td>
+    <td>56,621</td>
+    <td>28,353</td>
+    <td>28,268</td>
+    <td>49.92</td>
+  </tr>
+  <tr>
+    <td><b>CSC</b></td>
+    <td>558,492</td>
+    <td>555,223</td>
+    <td>3,269</td>
+    <td>0.58</td>
+    <td>56,644</td>
+    <td>28,343</td>
+    <td>28,301</td>
+    <td>49.96</td>
+  </tr>
+</table>
+
 
 ## Citation
 
