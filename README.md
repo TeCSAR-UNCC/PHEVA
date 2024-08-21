@@ -74,8 +74,6 @@ We benchmarked several State-of-the-Art (SotA) pose-based VAD models on the PHEV
 
 *Table 2: Benchmarking of SotA pose-based models on PHEVA.*
 
-![Continual Learning Benchmark](link_to_continual_learning_image)
-*Figure 4: Continual learning benchmark using TSGAD and STG-NF models.*
 
 ## Citation
 
