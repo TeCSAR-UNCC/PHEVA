@@ -63,10 +63,7 @@ If you use PHEVA in your research, please cite our paper:
 }
 ```
 
-## License
-
-PHEVA is released under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or support, please contact the authors at [author_email@university.edu](mailto:author_email@university.edu).
+For any questions or support, please contact the authors at [galinezh@charlotte.edu](mailto:galinezh@charlotte.edu).
