@@ -8,29 +8,34 @@ The PHEVA dataset is a pioneering resource designed to advance research in Video
 
 ## Anomalous Behaviors
  PHEVA’s individual anomalies involve throwing, hands up, lying down, and falling. In group situations, anomalies include punching, kicking, pushing, pulling, hitting with an object, and strangling. You can find several segmented examples below.
-<p align="center">
-  <img src="Sample_Videos/2_68.gif" alt="Anomalous Sample1">
-  <br>
-  Example 1: Slapping
-</p>
 
-<p align="center">
-  <img src="Sample_Videos/2_265.gif" alt="Anomalous Sample2">
-  <br>
-  Example 2: Kicking
-</p>
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="Sample_Videos/2_68.gif" alt="Anomalous Sample1">
+    <br>
+    Example 1: Slapping
+  </div>
 
-<p align="center">
-  <img src="Sample_Videos/4_79.gif" alt="Anomalous Sample3">
-  <br>
-  Example 3: Falling
-</p>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="Sample_Videos/2_265.gif" alt="Anomalous Sample2">
+    <br>
+    Example 2: Kicking
+  </div>
+</div>
 
-<p align="center">
-  <img src="Sample_Videos/4_99.gif" alt="Anomalous Sample4">
-  <br>
-  Example 4: Pushing
-</p>
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="Sample_Videos/4_79.gif" alt="Anomalous Sample3">
+    <br>
+    Example 3: Falling
+  </div>
+
+  <div style="display: inline-block; margin: 10px;">
+    <img src="Sample_Videos/2_99.gif" alt="Anomalous Sample4">
+    <br>
+    Example 4: Pushing
+  </div>
+</div>
 
 
 
