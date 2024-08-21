@@ -55,12 +55,57 @@ The PHEVA dataset is a pioneering resource designed to advance research in Video
 
 *Table 1: Statistical comparison of PHEVA with major VAD datasets.*
 
-## Annotation Methodology
+## Structure of Annotations
 
-- **Bounding Boxes**: Rectangular areas that identify the position of detected humans, utilized for pose estimation and tracking.
-- **Person IDs**: Temporal analysis annotations necessary for detecting subtle or complex anomalies in VAD.
-- **Human Poses**: Spatial configuration of human body parts, represented as a set of keypoints to facilitate the analysis of body movements.
+Each video has its own dedicated annotation file in .pkl format. 
 
+The files follow the same naming pattern as the videos, and it has a dictionary with the following format:
+
+```python
+{
+  "Frame_number": 
+  {
+    "Person_ID": [array([Boudning_Box]), array([Keypoints])]
+  }
+}
+```
+
+Bounding boxes are in XYWH format, and keypoints are in XYC format, where X and Y are coordinates, W is width, H is height, and C is confidence.
+
+You can use the following code snippet to read the pickle files:
+
+```python
+import pickle
+
+# Open the pickle file for reading
+with open('PHEVA/annotations/test/file.pickle', 'rb') as f:
+    # Load the contents of the file into a dictionary
+    my_dict = pickle.load(f)
+
+# Print the dictionary to verify that it has been loaded correctly
+print(my_dict)
+```
+
+## Structure of Anomaly Labels
+
+Anomaly labels are in .npy format.
+
+They exactly follow the same naming pattern, and we have one file per each video. 
+
+Each file is an array of 0s and 1s with the length of the number of frames in each video. 0 means the frame is normal, and 1 means the frame is anomalous.
+
+You can use the following code snnipet to load the files:
+
+```python
+import numpy as np
+
+# Load the .npy file
+data = np.load('file.npy')
+
+# Print to see the data
+print(data)
+
+```
 ## Benchmarking Results
 
 We benchmarked several State-of-the-Art (SotA) pose-based VAD models on the PHEVA dataset:
