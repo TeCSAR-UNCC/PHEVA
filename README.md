@@ -6,6 +6,15 @@
 
 The PHEVA dataset is a pioneering resource designed to advance research in Video Anomaly Detection (VAD) by addressing key challenges related to privacy, ethical concerns, and the complexities of human behavior in video data. PHEVA is the largest continuously recorded VAD dataset, providing comprehensive, de-identified human annotations across diverse indoor and outdoor scenes.
 
+## Sample Videos
+
+### Video 1: [Description of Video 1]
+[Watch Video 1](Sample_Videos/C2/2_68.mp4)
+
+### Video 2: [Description of Video 2]
+[Watch Video 2](https://github.com/yourusername/yourrepo/blob/main/path_to_video2.mp4)
+
+
 ## Key Features
 
 - **Privacy-Preserving**: PHEVA only includes de-identified human annotations, removing all pixel information to safeguard privacy.
