@@ -55,6 +55,14 @@ The PHEVA dataset is a pioneering resource designed to advance research in Video
 
 *Table 1: Statistical comparison of PHEVA with major VAD datasets.*
 
+## How to Download The Dataset
+
+For downloading the annotations, anomaly labels, and splits, please use the following link:
+
+[**Main Link: CHAD_Meta**](https://www.dropbox.com/scl/fi/lbyfhyqiq7mm9j5k42bhg/Annotations.zip?rlkey=vxhz20oxr7fin4lhor93vwujq&st=c6exdb3v&dl=0)
+
+[**Mirror Link 1: CHAD_Meta**](https://drive.google.com/file/d/1Hiqn2kZXxGv9WGlysyEtT7ozBzLGHyIR/view?usp=sharing)
+
 ## Structure of Annotations
 
 Each video has its own dedicated annotation file in .pkl format. 
