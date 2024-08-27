@@ -4,7 +4,7 @@
 
 ## Overview
 
-The PHEVA dataset is a pioneering resource designed to advance research in Video Anomaly Detection (VAD) by addressing key challenges related to privacy, ethical concerns, and the complexities of human behavior in video data. PHEVA is the largest continuously recorded VAD dataset, providing comprehensive, de-identified human annotations across diverse indoor and outdoor scenes. PHEVA provides two distinct data settings: conventional training and continual learning which can be found in this repository.
+The PHEVA dataset is a pioneering resource designed to advance research in Video Anomaly Detection (VAD) by addressing key challenges related to privacy, ethical concerns, and the complexities of human behavior in video data. PHEVA is the largest continuously recorded VAD dataset, providing comprehensive, de-identified human annotations across diverse indoor and outdoor scenes. PHEVA provides two distinct data settings: conventional training and continual learning which can be found in this repository. You can find the paper in the following link: [**PHEVA: A Privacy-preserving Human-centric Video Anomaly Detection Dataset**](https://arxiv.org/abs/2408.14329).
 
 ## Anomalous Behaviors
  PHEVA’s individual anomalies involve throwing, hands up, lying down, and falling. In group situations, anomalies include punching, kicking, pushing, pulling, hitting with an object, and strangling. You can find several segmented examples below.
